@@ -1,0 +1,40 @@
+crear lista de diccionario
+Funcion Registro Cliente
+    Input DNI
+    si el DNI ya esta registrado
+        Error, ese DNI ya esta registrado, introduce uno  que no lo este
+    Input Nombre
+
+Funcion Visualizar todos los clientes registrados y realizar búsquedas de clientes
+    leer diccionario
+    input que DNI buscas
+    leer DNI en diccionario que concuerde con "input que DNI buscas"
+
+Funcion Realizar una compra
+    leer cliente que va a realizar la compra
+    Total de pedidos = 0
+    Total de pedidos = Total de pedidos + 1 
+    imprimir(f"Este ha sido el pedido {Total de pedido}")
+
+Funcion Seguimiento de la compra
+    leer numeor de pedido
+    Mostrar quien realizo el pedido y todo lo que compro
+
+While True:
+    pritn (1-Registrar cliente \n
+    2-Visualizar todos los clientes registrados y realizar búsquedas de clientes \n
+    3-Realizar una comrpa\n
+    4-Seguimiento de una compra \n
+    5-Salir) 
+    input que eleccion quieres hacer
+    if input que eleccion quieres hacer == '1':
+        Funcion Registro Cliente()
+    if input que eleccion quieres hacer == '2':
+        Funcion Visualizar todos los clientes registrados y realizar búsquedas de clientes()
+    if input que eleccion quieres hacer == '3':
+        Funcion Realizar una compra()
+    if input que eleccion quieres hacer == '4':
+        Funcion Seguimiento de la compra()
+    if input que eleccion quieres hacer == '5':
+        pritn("Un placer hacer negocios")
+        break
